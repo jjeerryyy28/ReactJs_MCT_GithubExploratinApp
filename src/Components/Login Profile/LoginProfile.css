@@ -1,0 +1,182 @@
+body {
+  background-color: gray;
+}
+
+.LoginProfile > h3 {
+  color: black;
+  text-align: center;
+}
+
+.profile-card {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border: 2px solid black;
+  width: 400px;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 50px;
+  background-color: #3d4451;
+}
+
+.profile-card .profile-img {
+  padding: 10px;
+}
+
+.profile-card .profile-img > img {
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
+  margin-right: 40px;
+}
+
+.profile-card .profile-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-card .profile-details h4 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 20px;
+  color: white;
+}
+
+.profile-card .profile-details .profile-info {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.profile-card .profile-details .profile-info p {
+  margin: 0;
+  padding: 8px;
+  color: white;
+}
+
+.profile-card .profile-details .profile-info p:first-child {
+  margin: 0;
+  padding: 2px;
+  color: white;
+  background-color: #753bf5;
+  border-radius: 20px;
+  font-size: 10px;
+}
+
+.profile-card .profile-details .profile-info p:nth-child(2) {
+  margin: 0;
+  padding: 2px;
+  color: white;
+  background-color: #f348c9;
+  border-radius: 20px;
+  font-size: 10px;
+}
+
+.profile-card .profile-details .profile-info p:nth-child(3) {
+  margin: 0;
+  padding: 2px;
+  color: white;
+  background-color: #2fd4c2;
+  border-radius: 20px;
+  font-size: 10px;
+}
+
+.profile-card .profile-details {
+  color: white;
+}
+
+.profile-card .profile-details button {
+  background-color: #3d4451;
+  border: 1px solid white;
+  margin-top: -40px;
+  color: white;
+  border-radius: 10px;
+}
+.profile-card .profile-details button:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.repo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+
+.RepoContainer {
+  border: 3px solid white;
+  padding: 40px;
+  width: 500px;
+  background-color: #e9b306;
+  margin-bottom: 20px;
+  position: relative;
+  border-radius: 50px;
+}
+
+
+.repoCon {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.repoInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.repoInfo h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.repoInfo .language {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+
+.RepoContainer {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100vw;
+}
+
+.RepoContainer button {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translate(0, -50%);
+  background-color: #3d4451;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+
+@media (max-width: 600px) {
+  .repo {
+    justify-content: flex-start;
+  }
+
+  .RepoContainer {
+    flex: 0 0 100%;
+  }
+}
+
+

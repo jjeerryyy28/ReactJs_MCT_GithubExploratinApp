@@ -1,0 +1,67 @@
+.UserCard {
+  background-color: white;
+  width: 500px;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 5px black;
+  text-decoration: none;
+  color: black;
+}
+.userdetails {
+  text-decoration: none;
+  color: black;
+}
+
+.UserCard{
+  background-color: #f1f5f8;
+}
+.UserCard:hover {
+  transform: scale(1.01);
+  transition: 0.2s ease-in-out;
+}
+.UserCard > div > p {
+  margin: 0;
+  font-size: 1.7rem;
+  font-weight: 300;
+}
+.UserCard > div {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.followers > h4,
+.repos > h4,
+.following > h4 {
+  font-size: 0.9rem;
+  color: black;
+}
+
+.followers > span,
+.repos > span,
+.following > span {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.UserCard > div > img {
+  height: 10rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #252735;
+}
+.UserCard_deets {
+  display: flex;
+  flex-direction: row;
+}
+
+.followers,
+.repos,
+.following {
+  flex: 1;
+  background-color: #eef2f5;
+  padding: 10px;
+  margin-right: 10px;
+  width:80px;
+}
